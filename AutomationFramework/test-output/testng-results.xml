@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL is matching and test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching and test case passed.]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful and test case is passed.]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed and test case is passed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-08T10:14:28 EST" name="Default suite" finished-at="2023-12-08T10:14:50 EST" duration-ms="22658">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T10:14:28 EST" name="Default test" finished-at="2023-12-08T10:14:50 EST" duration-ms="22658">
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:28 EST" name="launchBrowser" finished-at="2023-12-08T10:14:45 EST" duration-ms="17416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:45 EST" name="pageObjects" finished-at="2023-12-08T10:14:45 EST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="validationOfUrl()[pri:0, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:45 EST" name="validationOfUrl" finished-at="2023-12-08T10:14:46 EST" duration-ms="175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is matching and test case passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationOfUrl -->
+        <test-method signature="validationOfTitle()[pri:1, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:46 EST" name="validationOfTitle" finished-at="2023-12-08T10:14:46 EST" duration-ms="60" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and test case passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationOfTitle -->
+        <test-method signature="validationOfLoginFunctionality()[pri:2, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:46 EST" name="validationOfLoginFunctionality" finished-at="2023-12-08T10:14:49 EST" duration-ms="2831" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful and test case is passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationOfLoginFunctionality -->
+        <test-method signature="validationFunctionalityWithInvalidData()[pri:3, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:49 EST" name="validationFunctionalityWithInvalidData" finished-at="2023-12-08T10:14:50 EST" duration-ms="1051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message is displayed and test case is passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationFunctionalityWithInvalidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginPageTest@957e06]" started-at="2023-12-08T10:14:50 EST" name="tearDown" finished-at="2023-12-08T10:14:50 EST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
